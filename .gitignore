@@ -1,0 +1,21 @@
+# 依赖 / 环境
+.venv/
+__pycache__/
+*.pyc
+
+# 编辑器
+.idea/
+.vscode/
+
+# 验证临时目录 / 备份 / 修复中间产物
+.verify-home-host/
+client.broken.bak
+client.repaired.js
+*.bak
+
+# 日志与本地配置
+*.log
+.github-token
+
+# 一次性恢复脚本（不随项目发布）
+scripts/repair-client*.mjs
